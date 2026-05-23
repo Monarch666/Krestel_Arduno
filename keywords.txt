@@ -1,0 +1,140 @@
+##############################################
+# Kestrel Library — Arduino IDE Keywords
+# Format: KEYWORD<TAB>KEYWORD_TOKENTYPE
+##############################################
+
+#######################################
+# Datatypes (KEYWORD1 — orange)
+#######################################
+
+ks_header_t	KEYWORD1
+ks_parser_t	KEYWORD1
+ks_session_t	KEYWORD1
+ks_nonce_state_t	KEYWORD1
+ks_crypto_ctx_t	KEYWORD1
+ks_heartbeat_t	KEYWORD1
+ks_attitude_t	KEYWORD1
+ks_gps_raw_t	KEYWORD1
+ks_battery_t	KEYWORD1
+ks_rc_input_t	KEYWORD1
+ks_command_t	KEYWORD1
+ks_command_ack_t	KEYWORD1
+ks_mode_change_t	KEYWORD1
+ks_mission_item_t	KEYWORD1
+ks_key_exchange_t	KEYWORD1
+ks_key_exchange_ack_t	KEYWORD1
+ks_batch_t	KEYWORD1
+ks_batch_msg_t	KEYWORD1
+ks_fragment_set_t	KEYWORD1
+ks_reassembly_ctx_t	KEYWORD1
+ks_error_t	KEYWORD1
+ks_parse_state_t	KEYWORD1
+ks_encrypt_policy_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2 — orange-brown)
+#######################################
+
+ks_parser_init	KEYWORD2
+ks_parse_char	KEYWORD2
+ks_session_init	KEYWORD2
+ks_session_destroy	KEYWORD2
+ks_nonce_init	KEYWORD2
+ks_nonce_generate	KEYWORD2
+ks_nonce_get_counter	KEYWORD2
+ks_nonce_set_counter	KEYWORD2
+kestrel_pack_with_nonce	KEYWORD2
+kestrel_pack_cached	KEYWORD2
+kestrel_pack_selective	KEYWORD2
+kestrel_pack_batch	KEYWORD2
+ks_serialize_heartbeat	KEYWORD2
+ks_deserialize_heartbeat	KEYWORD2
+ks_serialize_attitude	KEYWORD2
+ks_deserialize_attitude	KEYWORD2
+ks_serialize_gps_raw	KEYWORD2
+ks_deserialize_gps_raw	KEYWORD2
+ks_serialize_battery	KEYWORD2
+ks_deserialize_battery	KEYWORD2
+ks_serialize_rc_input	KEYWORD2
+ks_deserialize_rc_input	KEYWORD2
+ks_serialize_command	KEYWORD2
+ks_deserialize_command	KEYWORD2
+ks_serialize_command_ack	KEYWORD2
+ks_deserialize_command_ack	KEYWORD2
+ks_serialize_mode_change	KEYWORD2
+ks_deserialize_mode_change	KEYWORD2
+ks_serialize_mission_item	KEYWORD2
+ks_deserialize_mission_item	KEYWORD2
+ks_serialize_key_exchange	KEYWORD2
+ks_deserialize_key_exchange	KEYWORD2
+ks_fragment_split	KEYWORD2
+ks_reassembly_init	KEYWORD2
+ks_reassembly_add_timed	KEYWORD2
+ks_reassembly_add	KEYWORD2
+ks_encode_base_header	KEYWORD2
+ks_decode_base_header	KEYWORD2
+ks_encode_ext_header	KEYWORD2
+ks_decode_ext_header	KEYWORD2
+ks_get_encrypt_policy	KEYWORD2
+ks_set_encrypt_policy	KEYWORD2
+ks_crc_init	KEYWORD2
+ks_crc_accumulate	KEYWORD2
+ks_crypto_ctx_init	KEYWORD2
+
+#######################################
+# Constants (LITERAL1 — teal)
+#######################################
+
+KS_OK	LITERAL1
+KS_ERR_CRC	LITERAL1
+KS_ERR_NO_KEY	LITERAL1
+KS_ERR_MAC_VERIFICATION	LITERAL1
+KS_ERR_BUFFER_OVERFLOW	LITERAL1
+KS_ERR_INVALID_HEADER	LITERAL1
+KS_ERR_NULL_POINTER	LITERAL1
+KS_ERR_REPLAY	LITERAL1
+KS_SOF	LITERAL1
+KS_PRIO_BULK	LITERAL1
+KS_PRIO_NORMAL	LITERAL1
+KS_PRIO_HIGH	LITERAL1
+KS_PRIO_EMERGENCY	LITERAL1
+KS_STREAM_TELEM_FAST	LITERAL1
+KS_STREAM_TELEM_SLOW	LITERAL1
+KS_STREAM_CMD	LITERAL1
+KS_STREAM_CMD_ACK	LITERAL1
+KS_STREAM_MISSION	LITERAL1
+KS_STREAM_VIDEO	LITERAL1
+KS_STREAM_SENSOR	LITERAL1
+KS_STREAM_HEARTBEAT	LITERAL1
+KS_STREAM_ALERT	LITERAL1
+KS_STREAM_NPNT	LITERAL1
+KS_STREAM_CUSTOM	LITERAL1
+KS_MSG_HEARTBEAT	LITERAL1
+KS_MSG_ATTITUDE	LITERAL1
+KS_MSG_GPS_RAW	LITERAL1
+KS_MSG_BATTERY	LITERAL1
+KS_MSG_RC_INPUT	LITERAL1
+KS_MSG_CMD	LITERAL1
+KS_MSG_CMD_ACK	LITERAL1
+KS_MSG_MODE_CHANGE	LITERAL1
+KS_MSG_MISSION_ITEM	LITERAL1
+KS_MSG_KEY_EXCHANGE	LITERAL1
+KS_MSG_KEY_EXCHANGE_ACK	LITERAL1
+KS_CMD_ARM	LITERAL1
+KS_CMD_DISARM	LITERAL1
+KS_CMD_TAKEOFF	LITERAL1
+KS_CMD_LAND	LITERAL1
+KS_CMD_RTL	LITERAL1
+KS_CMD_EMERGENCY	LITERAL1
+KS_ACK_OK	LITERAL1
+KS_ACK_REJECTED	LITERAL1
+KS_ACK_UNSUPPORTED	LITERAL1
+KS_ACK_FAILED	LITERAL1
+KS_ACK_IN_PROGRESS	LITERAL1
+KS_MODE_MANUAL	LITERAL1
+KS_MODE_STABILIZE	LITERAL1
+KS_MODE_ALT_HOLD	LITERAL1
+KS_MODE_LOITER	LITERAL1
+KS_MODE_AUTO	LITERAL1
+KS_MODE_RTL	LITERAL1
+KS_MODE_LAND	LITERAL1
