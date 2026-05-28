@@ -55,6 +55,9 @@ void setup() {
 
   Serial.println(F("=== Kestrel HeartbeatReceiver ==="));
   Serial.println(F("Listening for Kestrel packets ..."));
+  
+  Serial.print(F("DEBUG: sizeof(ks_parser_t)=")); Serial.println(sizeof(ks_parser_t));
+  Serial.print(F("DEBUG: offsetof(header)=")); Serial.println(offsetof(ks_parser_t, header));
 }
 
 void loop() {

@@ -1,6 +1,3 @@
-#include "kestrel_core.h"
-#include <string.h>
-
 /* =========================================================================
  * Arduino / Desktop platform split
  * ========================================================================= */
@@ -12,6 +9,9 @@
   #include <stdio.h>  /* For debug printf */
   #include <stdlib.h> /* For abort()      */
 #endif
+
+#include "kestrel_core.h"
+#include <string.h>
 
 /* Crypto: include monocypher only when not disabled */
 #ifndef KS_CRYPTO_DISABLED
